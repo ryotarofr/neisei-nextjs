@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  padding:24px;
+}
+
+/*960px以上のとき*/
+@media screen and (min-width: 1060px) {
+  :root {
+    padding:40px;
+  }
+}
